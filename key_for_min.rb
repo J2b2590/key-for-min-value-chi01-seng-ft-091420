@@ -5,20 +5,18 @@ def key_for_min_value(name_hash)
 
 hash = ""
 key_h = []
+row_count = 0
   hash = name_hash.each do |key, value|
-    row_count = 0
-
-    small_num =
-    while row_count < hash.count do
-
+    el_count = 0
+    small_num = hash[row_count][el_count]
+    while row_count < hash[row_count].each do |key, value|
+      if small_num = hash[row_count][el_count]
       end
 
+      el_count += 1
     end
-    puts "#{key}"
-    puts "#{value}"
-    puts hash
-
+    key_h << small_num
+    row_count += 1
   end
-
-
+  key_h
 end

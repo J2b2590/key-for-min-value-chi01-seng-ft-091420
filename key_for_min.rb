@@ -10,5 +10,5 @@ puts name_hash.each do |key, value|
   puts "#{key}" if "#{value}" < min_val
 
   end
-
+  key
 end

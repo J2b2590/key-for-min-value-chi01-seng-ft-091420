@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 
     key_h = 0
-    key_for_min_value = {}
+    key_for_min_value = []
     while key_h < name_hash.count do
       value_h = 0
       smallest_num = name_hash[key_h][value_h]

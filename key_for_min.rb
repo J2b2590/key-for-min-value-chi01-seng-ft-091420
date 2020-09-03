@@ -3,11 +3,16 @@
 
 def key_for_min_value(name_hash)
 
-puts name_hash.each do |key, value|
+# puts name_hash.each do |key, value|
+#
+#   min_val = "#{value}" * "#{value}" / 2
+#
+#   puts "#{key}" if "#{value}" < min_val
+#
+#   end
 
-  min_val = "#{value}" * "#{value}" / 2
 
-  puts "#{key}" if "#{value}" < min_val
+name_hash.map.with_index { |n, i| n * i }
 
-  end
+
 end

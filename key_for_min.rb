@@ -10,8 +10,9 @@ hash = ""
     # while row_count <
     #
     # end
-    puts "#{key}"
-    puts "#{value}"
+    # puts "#{key}"
+    # puts "#{value}"
+    puts hash
 
   end
 
